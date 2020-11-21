@@ -1,1 +1,20 @@
+body {
+	text-align: center;
+	background-color: #ffe5cc;
+}
 
+header {
+	font-family: shelby, sans-serif;
+	font-size: 70px;
+	color: #800080;
+	padding-top:10px;
+	padding-bottom: 30px;
+}
+button {
+	background-color: #ff99ce;
+	font-family: shelby, sans-serif;
+	padding: 20px;
+	font-size: 100px;
+	color: #800080;
+
+}
