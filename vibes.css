@@ -10,11 +10,21 @@ header {
 	padding-top:10px;
 	padding-bottom: 30px;
 }
+h1 {
+	color: #800080;
+	font-size: 40px;
+}
 button {
 	background-color: #ff99ce;
 	font-family: shelby, sans-serif;
 	padding: 20px;
 	font-size: 100px;
 	color: #800080;
-
+}
+.basicB {
+	font-size: 20px;
+	padding: 10px;
+}
+form {
+	color: #800080;
 }
