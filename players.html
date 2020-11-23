@@ -1,4 +1,44 @@
+<!DOCTYPE html>
 <html>
+<head>
+	<link rel="stylesheet" type="text/css" href="vibes.css" />
+	<meta name="viewport" content="width=device-width, user-scalable=no" />
+	<title> Truth or Dare! </title>
 
 
+
+</head>
+<body>
+
+<h1> Set Up Players </h1>
+
+<form>
+	<label for="numPlayers">Number of Players</label>
+	<input type="text" id="numPlayers" name="numPlayers" placeholder="3">
+	
+	<input type="submit" value="Submit">
+	<br><br><br><br>
+</form>
+
+<div id="players">
+<form onsubmit="next()">
+	<label for="player1">Player #1</label>
+	<input type="text" id="player1" name="player1" placeholder="Sarah"><br>
+	
+	<label for="player2">Player #2</label>
+	<input type="text" id="player2" name="player2" placeholder="John"><br>
+
+	<label for="player3">Player #3</label>
+	<input type="text" id="player3" name="player3" placeholder="Sue"><br>
+<!-- 
+	<input type="submit" value="Submit">
+-->
+</form>
+</div>
+	<button class="button basicB" onClick="location.href='TorD.html';"> Ready to Play! </button>
+
+<script>
+</script>
+
+</body>
 </html>
