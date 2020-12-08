@@ -4,7 +4,7 @@ body {
 }
 
 header {
-	font-family: shelby, sans-serif;
+	font-family: Garamond, serif;
 	font-size: 70px;
 	color: #800080;
 	padding-top:10px;
@@ -16,7 +16,7 @@ h1 {
 }
 button {
 	background-color: #ff99ce;
-	font-family: shelby, sans-serif;
+	font-family: Garamond, serif;
 	padding: 20px;
 	font-size: 100px;
 	color: #800080;
